@@ -1,0 +1,14 @@
+{
+  "common": {
+    "ok": "نعم",
+    "cancel": "إلغاء",
+    "back": "الى الخلف",
+    "sign_in": "تسجيل الدخول"
+  },
+  "errors": {"invalidEmail": "عنوان البريد الإلكتروني غير صالح."},
+  "welcome_screen": {
+    "poweredBy": "",
+    "readyForLaunch": "",
+    "continue": "استمر"
+  }
+}

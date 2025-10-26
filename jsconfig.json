@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "/*"
+      ],
+      "@utils": [
+        "./utility/*"
+      ],
+      "@components": [
+        "./components"
+      ],
+      "@containers": [
+        "./containers"
+      ],
+      "@reuseableComponents": [
+        "./reuseableComponents"
+      ],
+      "@reuseableFuntions": [
+        "./reuseableFuntions"
+      ],
+      "@actionTypes": [
+        "./actions/ActionTypes/*"
+      ],
+      "@apis": [
+        "./constants/apis"
+      ],
+      "@constants": [
+        "./constants"
+      ],
+      "@serviceAction": [
+        "./actions/ServiceAction/*"
+      ],
+      "@contexts": [
+        "./contexts/*"
+      ],
+      "@services": [
+        "./services/*"
+      ],
+      "@nav": [
+        "./services/NavigationService"
+      ],
+      "@serviceManager": [
+        "./services/HttpServiceManager/*"
+      ],
+      "@multipicker": [
+        "./services/MultipickerUtils/*"
+      ],
+      "@theme": [
+        "./theme"
+      ],
+      "@hoc": [
+        "./hoc"
+      ],
+      "@customHooks": [
+        "./customHooks/*"
+      ],
+    }
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

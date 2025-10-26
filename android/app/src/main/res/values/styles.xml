@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowDisablePreview">true</item>
+    <item name="android:forceDarkAllowed">false</item>
+        <!-- Customize your theme here. -->
+    </style>
+       <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackground">@color/primary_dark</item> <!--Change for the color you want -->
+    </style>
+
+</resources>

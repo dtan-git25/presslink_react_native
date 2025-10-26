@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Presslink.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>ADF0899C6886DD16C6C60339C8F37ACC1F045024</string>
+				<key>dateExpires</key>
+				<string>20/03/2023</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>ADF0899C6886DD16C6C60339C8F37ACC1F045024</string>
+						<key>dateExpires</key>
+						<string>20/03/2023</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>name</key>
+					<string>OpenSSL.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>83H42V9X8L</string>
+						<key>name</key>
+						<string>360 Digital Marketing LLC</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>83H42V9X8L.com.presslink.test</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>83H42V9X8L</string>
+				<key>get-task-allow</key>
+				<true/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>83H42V9X8L.com.presslink.test</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>Presslink.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>06c370ee-ce84-42d2-a9d5-3c38875776e6</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>83H42V9X8L</string>
+				<key>name</key>
+				<string>360 Digital Marketing LLC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

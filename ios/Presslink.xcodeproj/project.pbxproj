@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		15F343894E99440BA8D72587 /* Axiforma-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE7DAA3BC96D4A17961F4F0D /* Axiforma-BlackItalic.otf */; };
+		1D9FF62D27969DE60021B535 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D9FF62C27969DE60021B535 /* splash.png */; };
+		21B38EBF306440398EA3607E /* Axiforma-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0702ACDA0B36448381E1BF05 /* Axiforma-Heavy.otf */; };
+		2E61C32CD184447DB92EA6C3 /* Axiforma-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0844CE7F33A429F8EAB2C4D /* Axiforma-Italic.otf */; };
+		316BD37F4F0443C0B222F9F9 /* Axiforma-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 555D19344AE14EEB8A805F84 /* Axiforma-Bold.otf */; };
+		40E715F3B28944A3AC6FAA0C /* Axiforma-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 99CE6565AE454253A3F8E7AB /* Axiforma-Medium.otf */; };
+		40F4E53C470F421AB5353140 /* Gibson-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 03E7527AE54242D3A1CD4A31 /* Gibson-BoldItalic.otf */; };
+		41FC8B2045224938A4E581A0 /* Axiforma-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 132B4933E1FC41E5A81DF04D /* Axiforma-BoldItalic.otf */; };
+		4FB5BEFCB5B148EF8752FA51 /* Axiforma-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 81747ED2B809430599EEE233 /* Axiforma-Black.otf */; };
+		5104B4F5759F4F699C5EE66F /* Gibson-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 78CCB28DC8674CB08415C632 /* Gibson-Bold.otf */; };
+		521A2C4C59274BB685ED91D1 /* Axiforma-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = C3EA801A5F1347E2884FB395 /* Axiforma-SemiBoldItalic.otf */; };
+		5C65969EA5A1415AB28A8297 /* Axiforma-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7DB8E4529B349BCBB4D0B09 /* Axiforma-ExtraBoldItalic.otf */; };
+		706B389189D5475AB33E1E0E /* Axiforma-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B57F0EC4743C40E7B97BE625 /* Axiforma-HeavyItalic.otf */; };
+		72AFC083294D4915A1FE6C6C /* Gibson-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = D984780FADC34AE887A48F8F /* Gibson-Regular.otf */; };
+		76EE9A325EB842E8BC787FE7 /* Gibson-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1C6C114C03234D8892B0FA92 /* Gibson-LightItalic.otf */; };
+		796EA4ECCB684B14920440D1 /* Axiforma-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = A1BA88D70D2E4B418D2A0A27 /* Axiforma-Book.otf */; };
+		7A1DBFD80AE94675A2D738DE /* Gibson-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A586291E3CB04FA385D77E81 /* Gibson-SemiBold.otf */; };
+		7EF34372A63D4D32905A7ED2 /* Axiforma-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6A88D537E34F4181ACA035C5 /* Axiforma-SemiBold.otf */; };
+		801820D770964F75AD2B6985 /* Axiforma-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BB0E7691E14E43909C304099 /* Axiforma-ThinItalic.otf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A013FFA9D12B46ABACBB1426 /* Gibson-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD277C7F90C4D65864B3C18 /* Gibson-SemiBoldItalic.otf */; };
+		A1489E4D33BF4065AA79A9BF /* Axiforma-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 078C6947B4674D018510FD2E /* Axiforma-BookItalic.otf */; };
+		A20C21C9786A48F1B5277163 /* Axiforma-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48A284590EC04357A31B00CE /* Axiforma-MediumItalic.otf */; };
+		A2DABBD5F20640768BEBE5E7 /* Gibson-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = D97600F2880C41A2942FA9FE /* Gibson-Light.otf */; };
+		A974397D34B14D45AEB1FA84 /* Axiforma-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = AF8586EE001C478EB895E6CF /* Axiforma-LightItalic.otf */; };
+		AD53D4B182CF4ED297045A45 /* Axiforma-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23FBE83F060E47648488A9D1 /* Axiforma-Regular.otf */; };
+		B3224678D8344C3C9E4B5328 /* Axiforma-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 776862DDA18B45208A9E71E7 /* Axiforma-Light.otf */; };
+		C747A48079AB6F9200A0226E /* libPods-Presslink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D6A90BC8D08E0D3D4074E2 /* libPods-Presslink.a */; };
+		CCD6C11806E14776854D8FE0 /* Axiforma-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 35394145DC7D4DACAB54B392 /* Axiforma-Thin.otf */; };
+		D74EFB0E7D05492B95B81B5D /* Axiforma-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7755BD03C1E48DF8F80C0E4 /* Axiforma-ExtraBold.otf */; };
+		F4D27CEBD4CC4C4491DE626D /* Gibson-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F9A416893FB34F878F0E528D /* Gibson-Italic.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* PresslinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresslinkTests.m; sourceTree = "<group>"; };
+		03E7527AE54242D3A1CD4A31 /* Gibson-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-BoldItalic.otf"; path = "../src/assets/fonts/Gibson-BoldItalic.otf"; sourceTree = "<group>"; };
+		0702ACDA0B36448381E1BF05 /* Axiforma-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Heavy.otf"; path = "../src/assets/fonts/Axiforma-Heavy.otf"; sourceTree = "<group>"; };
+		078C6947B4674D018510FD2E /* Axiforma-BookItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-BookItalic.otf"; path = "../src/assets/fonts/Axiforma-BookItalic.otf"; sourceTree = "<group>"; };
+		132B4933E1FC41E5A81DF04D /* Axiforma-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-BoldItalic.otf"; path = "../src/assets/fonts/Axiforma-BoldItalic.otf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* Presslink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Presslink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Presslink/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Presslink/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Presslink/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Presslink/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Presslink/main.m; sourceTree = "<group>"; };
+		1C6C114C03234D8892B0FA92 /* Gibson-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-LightItalic.otf"; path = "../src/assets/fonts/Gibson-LightItalic.otf"; sourceTree = "<group>"; };
+		1D18348624FC7D44AB4650C0 /* libPods-Presslink-PresslinkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Presslink-PresslinkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D9FF62C27969DE60021B535 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = splash.png; path = ../src/assets/images/splash.png; sourceTree = "<group>"; };
+		20770B84850F4B5A89A09EDB /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		232905D7C731455984B197B4 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		23FBE83F060E47648488A9D1 /* Axiforma-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Regular.otf"; path = "../src/assets/fonts/Axiforma-Regular.otf"; sourceTree = "<group>"; };
+		25E1514FF7ED4251B1734380 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		31D6A90BC8D08E0D3D4074E2 /* libPods-Presslink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Presslink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35394145DC7D4DACAB54B392 /* Axiforma-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Thin.otf"; path = "../src/assets/fonts/Axiforma-Thin.otf"; sourceTree = "<group>"; };
+		3A2F085A3A37D40BDA8F389B /* Pods-Presslink-PresslinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presslink-PresslinkTests.release.xcconfig"; path = "Target Support Files/Pods-Presslink-PresslinkTests/Pods-Presslink-PresslinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F2D49A494284475AF651BAC /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		40AE2798CFD74475BAB56DD0 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		43008BD946C14E93BDA5D775 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		48A284590EC04357A31B00CE /* Axiforma-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-MediumItalic.otf"; path = "../src/assets/fonts/Axiforma-MediumItalic.otf"; sourceTree = "<group>"; };
+		48D1063DA8554FFF8EE844D1 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		555D19344AE14EEB8A805F84 /* Axiforma-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Bold.otf"; path = "../src/assets/fonts/Axiforma-Bold.otf"; sourceTree = "<group>"; };
+		5AD277C7F90C4D65864B3C18 /* Gibson-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-SemiBoldItalic.otf"; path = "../src/assets/fonts/Gibson-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		60E40544AADBFED5E8F182EA /* Pods-Presslink-PresslinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presslink-PresslinkTests.debug.xcconfig"; path = "Target Support Files/Pods-Presslink-PresslinkTests/Pods-Presslink-PresslinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64F81A1340FF45B2BA95F336 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		66F9D7FF07924AAA91E2F2A7 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		6A88D537E34F4181ACA035C5 /* Axiforma-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-SemiBold.otf"; path = "../src/assets/fonts/Axiforma-SemiBold.otf"; sourceTree = "<group>"; };
+		776862DDA18B45208A9E71E7 /* Axiforma-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Light.otf"; path = "../src/assets/fonts/Axiforma-Light.otf"; sourceTree = "<group>"; };
+		78CCB28DC8674CB08415C632 /* Gibson-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-Bold.otf"; path = "../src/assets/fonts/Gibson-Bold.otf"; sourceTree = "<group>"; };
+		81747ED2B809430599EEE233 /* Axiforma-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Black.otf"; path = "../src/assets/fonts/Axiforma-Black.otf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Presslink/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99CE6565AE454253A3F8E7AB /* Axiforma-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Medium.otf"; path = "../src/assets/fonts/Axiforma-Medium.otf"; sourceTree = "<group>"; };
+		A1BA88D70D2E4B418D2A0A27 /* Axiforma-Book.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Book.otf"; path = "../src/assets/fonts/Axiforma-Book.otf"; sourceTree = "<group>"; };
+		A586291E3CB04FA385D77E81 /* Gibson-SemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-SemiBold.otf"; path = "../src/assets/fonts/Gibson-SemiBold.otf"; sourceTree = "<group>"; };
+		AF1E485DD8D043548ADAA8C7 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		AF8586EE001C478EB895E6CF /* Axiforma-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-LightItalic.otf"; path = "../src/assets/fonts/Axiforma-LightItalic.otf"; sourceTree = "<group>"; };
+		B0844CE7F33A429F8EAB2C4D /* Axiforma-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-Italic.otf"; path = "../src/assets/fonts/Axiforma-Italic.otf"; sourceTree = "<group>"; };
+		B252EB70D5AF4B99B9FDA583 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		B57F0EC4743C40E7B97BE625 /* Axiforma-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-HeavyItalic.otf"; path = "../src/assets/fonts/Axiforma-HeavyItalic.otf"; sourceTree = "<group>"; };
+		BB0E7691E14E43909C304099 /* Axiforma-ThinItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-ThinItalic.otf"; path = "../src/assets/fonts/Axiforma-ThinItalic.otf"; sourceTree = "<group>"; };
+		C3EA801A5F1347E2884FB395 /* Axiforma-SemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-SemiBoldItalic.otf"; path = "../src/assets/fonts/Axiforma-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		C68AC32951344C31BFD3F63E /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		CAB8FE35B36B4F089D4D089C /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		CE0B7C83F08847C58D4E3DC0 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		CEC6597F18C54C709F2AF866 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		D97600F2880C41A2942FA9FE /* Gibson-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-Light.otf"; path = "../src/assets/fonts/Gibson-Light.otf"; sourceTree = "<group>"; };
+		D984780FADC34AE887A48F8F /* Gibson-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-Regular.otf"; path = "../src/assets/fonts/Gibson-Regular.otf"; sourceTree = "<group>"; };
+		DFA31256AFB2926C53494229 /* Pods-Presslink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presslink.release.xcconfig"; path = "Target Support Files/Pods-Presslink/Pods-Presslink.release.xcconfig"; sourceTree = "<group>"; };
+		E30D9D264B9A40B797CFFFF3 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E7755BD03C1E48DF8F80C0E4 /* Axiforma-ExtraBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-ExtraBold.otf"; path = "../src/assets/fonts/Axiforma-ExtraBold.otf"; sourceTree = "<group>"; };
+		E7DB8E4529B349BCBB4D0B09 /* Axiforma-ExtraBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-ExtraBoldItalic.otf"; path = "../src/assets/fonts/Axiforma-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE7DAA3BC96D4A17961F4F0D /* Axiforma-BlackItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Axiforma-BlackItalic.otf"; path = "../src/assets/fonts/Axiforma-BlackItalic.otf"; sourceTree = "<group>"; };
+		F9A416893FB34F878F0E528D /* Gibson-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Gibson-Italic.otf"; path = "../src/assets/fonts/Gibson-Italic.otf"; sourceTree = "<group>"; };
+		FA00A4F6F00F6E65FF9B73F4 /* Pods-Presslink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Presslink.debug.xcconfig"; path = "Target Support Files/Pods-Presslink/Pods-Presslink.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C747A48079AB6F9200A0226E /* libPods-Presslink.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* PresslinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* PresslinkTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = PresslinkTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Presslink */ = {
+			isa = PBXGroup;
+			children = (
+				1D9FF62C27969DE60021B535 /* splash.png */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Presslink;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				31D6A90BC8D08E0D3D4074E2 /* libPods-Presslink.a */,
+				1D18348624FC7D44AB4650C0 /* libPods-Presslink-PresslinkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		411AA1CA05744EC99D86E723 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				81747ED2B809430599EEE233 /* Axiforma-Black.otf */,
+				EE7DAA3BC96D4A17961F4F0D /* Axiforma-BlackItalic.otf */,
+				555D19344AE14EEB8A805F84 /* Axiforma-Bold.otf */,
+				132B4933E1FC41E5A81DF04D /* Axiforma-BoldItalic.otf */,
+				A1BA88D70D2E4B418D2A0A27 /* Axiforma-Book.otf */,
+				078C6947B4674D018510FD2E /* Axiforma-BookItalic.otf */,
+				E7755BD03C1E48DF8F80C0E4 /* Axiforma-ExtraBold.otf */,
+				E7DB8E4529B349BCBB4D0B09 /* Axiforma-ExtraBoldItalic.otf */,
+				0702ACDA0B36448381E1BF05 /* Axiforma-Heavy.otf */,
+				B57F0EC4743C40E7B97BE625 /* Axiforma-HeavyItalic.otf */,
+				B0844CE7F33A429F8EAB2C4D /* Axiforma-Italic.otf */,
+				776862DDA18B45208A9E71E7 /* Axiforma-Light.otf */,
+				AF8586EE001C478EB895E6CF /* Axiforma-LightItalic.otf */,
+				99CE6565AE454253A3F8E7AB /* Axiforma-Medium.otf */,
+				48A284590EC04357A31B00CE /* Axiforma-MediumItalic.otf */,
+				23FBE83F060E47648488A9D1 /* Axiforma-Regular.otf */,
+				6A88D537E34F4181ACA035C5 /* Axiforma-SemiBold.otf */,
+				C3EA801A5F1347E2884FB395 /* Axiforma-SemiBoldItalic.otf */,
+				35394145DC7D4DACAB54B392 /* Axiforma-Thin.otf */,
+				BB0E7691E14E43909C304099 /* Axiforma-ThinItalic.otf */,
+				78CCB28DC8674CB08415C632 /* Gibson-Bold.otf */,
+				03E7527AE54242D3A1CD4A31 /* Gibson-BoldItalic.otf */,
+				F9A416893FB34F878F0E528D /* Gibson-Italic.otf */,
+				D97600F2880C41A2942FA9FE /* Gibson-Light.otf */,
+				1C6C114C03234D8892B0FA92 /* Gibson-LightItalic.otf */,
+				D984780FADC34AE887A48F8F /* Gibson-Regular.otf */,
+				A586291E3CB04FA385D77E81 /* Gibson-SemiBold.otf */,
+				5AD277C7F90C4D65864B3C18 /* Gibson-SemiBoldItalic.otf */,
+				CAB8FE35B36B4F089D4D089C /* AntDesign.ttf */,
+				64F81A1340FF45B2BA95F336 /* Entypo.ttf */,
+				3F2D49A494284475AF651BAC /* EvilIcons.ttf */,
+				20770B84850F4B5A89A09EDB /* Feather.ttf */,
+				43008BD946C14E93BDA5D775 /* FontAwesome.ttf */,
+				CE0B7C83F08847C58D4E3DC0 /* FontAwesome5_Brands.ttf */,
+				232905D7C731455984B197B4 /* FontAwesome5_Regular.ttf */,
+				40AE2798CFD74475BAB56DD0 /* FontAwesome5_Solid.ttf */,
+				25E1514FF7ED4251B1734380 /* Fontisto.ttf */,
+				66F9D7FF07924AAA91E2F2A7 /* Foundation.ttf */,
+				AF1E485DD8D043548ADAA8C7 /* Ionicons.ttf */,
+				48D1063DA8554FFF8EE844D1 /* MaterialCommunityIcons.ttf */,
+				C68AC32951344C31BFD3F63E /* MaterialIcons.ttf */,
+				B252EB70D5AF4B99B9FDA583 /* Octicons.ttf */,
+				CEC6597F18C54C709F2AF866 /* SimpleLineIcons.ttf */,
+				E30D9D264B9A40B797CFFFF3 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D8DD5169EDA3DB39F1A6CF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA00A4F6F00F6E65FF9B73F4 /* Pods-Presslink.debug.xcconfig */,
+				DFA31256AFB2926C53494229 /* Pods-Presslink.release.xcconfig */,
+				60E40544AADBFED5E8F182EA /* Pods-Presslink-PresslinkTests.debug.xcconfig */,
+				3A2F085A3A37D40BDA8F389B /* Pods-Presslink-PresslinkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* Presslink */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* PresslinkTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				4D8DD5169EDA3DB39F1A6CF1 /* Pods */,
+				411AA1CA05744EC99D86E723 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* Presslink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* Presslink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Presslink" */;
+			buildPhases = (
+				6E7464CF45455F8F31E10D2B /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E8043C36361DCF3A8881F756 /* [CP] Embed Pods Frameworks */,
+				29B033A773F081CE601CC5A3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Presslink;
+			productName = Presslink;
+			productReference = 13B07F961A680F5B00A75B9A /* Presslink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Presslink" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* Presslink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4FB5BEFCB5B148EF8752FA51 /* Axiforma-Black.otf in Resources */,
+				15F343894E99440BA8D72587 /* Axiforma-BlackItalic.otf in Resources */,
+				316BD37F4F0443C0B222F9F9 /* Axiforma-Bold.otf in Resources */,
+				41FC8B2045224938A4E581A0 /* Axiforma-BoldItalic.otf in Resources */,
+				1D9FF62D27969DE60021B535 /* splash.png in Resources */,
+				796EA4ECCB684B14920440D1 /* Axiforma-Book.otf in Resources */,
+				A1489E4D33BF4065AA79A9BF /* Axiforma-BookItalic.otf in Resources */,
+				D74EFB0E7D05492B95B81B5D /* Axiforma-ExtraBold.otf in Resources */,
+				5C65969EA5A1415AB28A8297 /* Axiforma-ExtraBoldItalic.otf in Resources */,
+				21B38EBF306440398EA3607E /* Axiforma-Heavy.otf in Resources */,
+				706B389189D5475AB33E1E0E /* Axiforma-HeavyItalic.otf in Resources */,
+				2E61C32CD184447DB92EA6C3 /* Axiforma-Italic.otf in Resources */,
+				B3224678D8344C3C9E4B5328 /* Axiforma-Light.otf in Resources */,
+				A974397D34B14D45AEB1FA84 /* Axiforma-LightItalic.otf in Resources */,
+				40E715F3B28944A3AC6FAA0C /* Axiforma-Medium.otf in Resources */,
+				A20C21C9786A48F1B5277163 /* Axiforma-MediumItalic.otf in Resources */,
+				AD53D4B182CF4ED297045A45 /* Axiforma-Regular.otf in Resources */,
+				7EF34372A63D4D32905A7ED2 /* Axiforma-SemiBold.otf in Resources */,
+				521A2C4C59274BB685ED91D1 /* Axiforma-SemiBoldItalic.otf in Resources */,
+				CCD6C11806E14776854D8FE0 /* Axiforma-Thin.otf in Resources */,
+				801820D770964F75AD2B6985 /* Axiforma-ThinItalic.otf in Resources */,
+				5104B4F5759F4F699C5EE66F /* Gibson-Bold.otf in Resources */,
+				40F4E53C470F421AB5353140 /* Gibson-BoldItalic.otf in Resources */,
+				F4D27CEBD4CC4C4491DE626D /* Gibson-Italic.otf in Resources */,
+				A2DABBD5F20640768BEBE5E7 /* Gibson-Light.otf in Resources */,
+				76EE9A325EB842E8BC787FE7 /* Gibson-LightItalic.otf in Resources */,
+				72AFC083294D4915A1FE6C6C /* Gibson-Regular.otf in Resources */,
+				7A1DBFD80AE94675A2D738DE /* Gibson-SemiBold.otf in Resources */,
+				A013FFA9D12B46ABACBB1426 /* Gibson-SemiBoldItalic.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		29B033A773F081CE601CC5A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7464CF45455F8F31E10D2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Presslink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8043C36361DCF3A8881F756 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Presslink/Pods-Presslink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA00A4F6F00F6E65FF9B73F4 /* Pods-Presslink.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Presslink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.presslink.test;
+				PRODUCT_NAME = Presslink;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA31256AFB2926C53494229 /* Pods-Presslink.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Presslink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.presslink.test;
+				PRODUCT_NAME = Presslink;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Presslink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Presslink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
