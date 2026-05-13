@@ -73,3 +73,13 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Bundler (Ruby gems for CocoaPods)
+vendor/
+.bundle/
+
+# CocoaPods lockfile
+ios/Podfile.lock
+
+# patch-package / sed backup files
+*.bak
